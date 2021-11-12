@@ -1,0 +1,98 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: url("speech-bubbles.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header
+{
+	color: rgb(81, 8, 177);font-family: 'Dancing Script';font-size: 45px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.input_div_room_page
+{
+	background: rgb(249 81 175 / 0%);float: none;border-radius: 15px;
+}
+
+
+#addroom_button
+{
+	width: 60%;border-radius: 15px;
+   
+    color: azure;
+    background-image: linear-gradient(to right top, #f2f5f7, #2591d9, #1882c1, #0a73aa, #f3f5f7);
+    
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+	color: black;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.9);
+}
+.input_div_message_page label
+{
+	color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.input_div_message_page #msg
+{
+	width: 60%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 20%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}

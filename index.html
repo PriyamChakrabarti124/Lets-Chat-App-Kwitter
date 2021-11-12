@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChitChatter</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+    <script src="kwitter.js"></script>
+</head>
+
+<body>
+
+    <div class=" left_div" height=1000px>
+        <h1>Fill up your chat buckets</h1>
+        <br>
+        <img src="letter C.png">
+    </div>
+    <div class=" col-lg-6 col-md-6 col-sm-11 col-xs-11 main_div ">
+        <center>
+            <h1 class="header">
+                ChitChatter <sup>
+                    <img src="chatpp.png">
+                </sup>
+            </h1>
+
+            <div class="col-lg-6 col-md-6 col-sm-11 col-xs-11 login_div">
+
+                <img src="chat-room.png" class="logo">
+                <br><br>
+
+                <h3 style="font-family: 'Josefin Sans', sans-serif;">Like, Share and Read the world’s ideas</h3>
+                <br><br>
+                <h4 style="font-family: 'Josefin Sans', sans-serif;">Join ChitChatter today</h4>
+                <br><br>
+                <div class="form-group">
+                    <label style="font-family: 'Josefin Sans', sans-serif;">User Name:</label>
+                    <input type="text" id="user_name" class="form-control" placeholder="User Name">
+                </div>
+                <br><br>
+                <button id="login_button" class="btn " onclick="addUser()">Log in</button>
+                <br><br>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>

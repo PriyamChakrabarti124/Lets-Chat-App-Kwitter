@@ -1,0 +1,65 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+
+
+.header {
+	color: rgb(81, 8, 177);
+	font-family: 'Dancing Script';
+	font-size: 45px;
+	margin-top: 80px;
+}
+
+.header img {
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div {
+	float: none;
+	border-radius: 15px;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button {
+	width: 60%;
+	border-radius: 15px;
+
+	color: azure;
+	background-image: linear-gradient(to right top, #f2f5f7, #2591d9, #1882c1, #0a73aa, #f3f5f7);
+
+}
+
+.left_div {
+	top: 0;
+	left: 0;
+	float: left;
+	background:linear-gradient(rgb(250, 121, 153), rgb(119, 12, 21));
+	/* display: inline-block; */
+	height:100%;
+}
+.left_div h1{
+	padding: 50px;
+	margin: 100px;	
+	color: rgb(253, 251, 255);font-family: 'Dancing Script';font-size: 45px;margin-top: 80px;
+}
+.left_div img{
+	margin-top: -100px;
+	height:400px;
+	margin-left: 80px;
+}
+.main_div {
+	float: right;
+	top: 0;
+	right: 0;
+	/* display: inline-block;
+ */
+}
